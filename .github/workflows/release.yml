@@ -8,6 +8,8 @@ on:
 concurrency:
   group: ${{ github.workflow }}
 
+permissions: {}
+
 env:
   # renovate: datasource=python-version depName=python
   PYTHON_VERSION: 3.14
