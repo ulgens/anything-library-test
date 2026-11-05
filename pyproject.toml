@@ -22,12 +22,12 @@ dependencies = []
 [dependency-groups]
 dev = [
     "ipdb==0.13.13",
-    "ipython==9.15.0",
+    "ipython==9.18.1",
     "ty==0.0.55",
     { include-group = "pytest" },
 ]
 pytest = [
-    "pytest==9.1.1",
+    "pytest==9.2.0",
     "pytest-randomly==4.1.0",
     "pytest-xdist==3.8.0",
 ]
